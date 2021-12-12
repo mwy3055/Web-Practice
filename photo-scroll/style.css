@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400&display=swap');
+
+body {
+    background-color: black;
+}
+
+#photo-container {
+    display: flex;
+    flex-flow: row;
+    height: 500px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    object-fit: scale-down;
+    gap: 200px;
+}
+
+
+img {
+    max-height: 98%;
+    max-width: 100%;
+}
+
+p {
+    color: white;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
